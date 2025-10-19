@@ -9,7 +9,7 @@ Este projeto é a implementação de um desafio técnico para a construção de 
 ---
 
 ### **URL da Aplicação**
-**[LINK]**
+**[gerador-plano-aula.vercel.app](gerador-plano-aula.vercel.app)**
 
 ---
 
@@ -235,7 +235,7 @@ A resposta obtida pela geração na IA, recebida em JSON, foi transformada para 
 ## Desafios Encontrados e Soluções
 
 O principal desafio foi definir onde rodar o serviço de conexão com a IA, por isso, optei por transferir essa responsabilidade para a Edge Function, já que se fosse rodada diretamente no front-end iria ter que expor a chave de api do Gemini.
-Outro desafio, foi a definição do prompt ideal. Para isso, utilizando os comandos documento do teste técnico esse prompt foi passada pela a IA da OpenAI bem como pelo prórprio Gemini que forneceram excelentes ideias que culminaram no prompt apresentado após minha revisão.
+Outro desafio, foi a definição do prompt ideal. Para isso, utilizando os comandos documento do teste técnico esse prompt foi passada pela a IA da OpenAI bem como pelo prórprio Gemini que forneceram excelentes ideias que culminaram no prompt apresentado após minha revisão. Sim, esse trabalho contou com a ajuda das IAs para refinar e melhorar códigos.
 
 ---
 

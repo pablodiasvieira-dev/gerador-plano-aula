@@ -48,7 +48,7 @@ function App() {
 
     try {
       const bodyReq = { ...formData, "tempo_aula": parseInt(formData.tempo_aula) }
-
+      // Requisição para a Edge funtion do supabase que gera plano de aula pelo gemini
       const response = await fetch(import.meta.env.VITE_SUPABASE_FUNCTION_URL, {
         method: 'POST',
         headers: {

@@ -8,11 +8,6 @@ Este projeto é a implementação de um desafio técnico para a construção de 
 
 ---
 
-### **URL da Aplicação**
-**[gerador-plano-aula.vercel.app](gerador-plano-aula.vercel.app)**
-
----
-
 ## Stack
 
 * **Backend:** Supabase (PostgreSQL Database, Edge Functions)
